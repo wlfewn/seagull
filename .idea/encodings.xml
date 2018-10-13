@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../common-backstage" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../common-backstage/common-api-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../common-backstage/common-base-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../common-backstage/common-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../common-backstage/common-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../common-backstage/common-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../common-backstage/common-jwt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../common-backstage/common-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../common-backstage/common-security" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../common-backstage/common-swagger" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../common-backstage/common-token" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../common-backstage/common-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seagull-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seagull-service-side" charset="UTF-8" />
+  </component>
+</project>
