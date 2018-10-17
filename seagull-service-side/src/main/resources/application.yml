@@ -1,7 +1,16 @@
 spring:
   application:
     name: seagull-service
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    # 注意修改
+    url: jdbc:mysql://localhost:3306/seagull?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: geng123
 
 server:
   port: 8080
 
+
+## 启用基于token的登录系统
+tokenWeb.enable: true

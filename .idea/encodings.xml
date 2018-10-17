@@ -16,5 +16,6 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/seagull-core" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/seagull-service-side" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seagull-web" charset="UTF-8" />
   </component>
 </project>

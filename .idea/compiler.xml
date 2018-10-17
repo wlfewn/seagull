@@ -19,5 +19,8 @@
         <module name="seagull-service-side" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="seagull-web" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
