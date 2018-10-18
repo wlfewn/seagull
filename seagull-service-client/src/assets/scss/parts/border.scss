@@ -1,0 +1,27 @@
+/** 数字 */
+@import '../variables.scss';
+@import './color.scss';
+/**
+* $direction 使用默认值
+*/
+@mixin border($size: 1px, $direction: '', $color: $border-color) {
+  @if ($direction != '') {
+    border-#{$direction}: $size solid $color;
+  } @else {
+    border: $size solid $color;
+  }
+}
+
+/** border right */
+.border-right-0 {
+  @include border($zero, 'right');
+}
+
+/** border-radius */
+@mixin border-radius($size) {
+  border-radius: $size;
+}
+
+.border-radius-s{
+  @include border-radius($px-s);
+}

@@ -1,0 +1,12 @@
+
+/* 系统颜色 */
+$white: #fff;
+$black: #000;
+
+/*
+* scss 颜色计算部分 http://www.w3cplus.com/preprocessor/sass-color-function.html
+*/
+/** 表单label部分颜色 */
+$label-color: lighten($black, 20%);
+
+$border-color: lighten($black, 85%);

@@ -1,0 +1,22 @@
+/** 数字变量 */
+@import '../variables.scss';
+
+@mixin margin($direction, $size) {
+  @if $direction != '' {
+    margin-#{$direction}: $size;
+  } @else {
+    margin: $size;
+  }
+}
+
+/** left */
+.margin-left-s {
+  @include margin('left', $px-s);
+}
+
+/** right */
+.margin-right-s {
+  @include margin('right', $px-s);
+}
+
+/** top */

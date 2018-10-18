@@ -1,0 +1,9 @@
+/** 聚合其他 scss 部分 */
+@import './parts/border.scss';
+@import './parts/margin.scss';
+@import './parts/color.scss';
+@import './parts/mixin.scss';
+
+.align-center{
+  text-align: center;
+}

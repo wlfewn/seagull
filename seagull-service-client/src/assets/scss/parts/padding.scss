@@ -1,0 +1,21 @@
+/** 数字 */
+@import '../variables.scss';
+
+
+@mixin padding($direction, $size) {
+  @if $direction != '' {
+    padding-#{$direction}: $size;
+  } @else {
+    padding: $size;
+  }
+}
+
+/** bottom */
+.padding-bottom-m {
+  @include padding('bottom', $px-m);
+}
+
+/** top */
+.padding-top-m {
+  @include padding('top', $px-m);
+}
