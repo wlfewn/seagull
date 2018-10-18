@@ -5,3 +5,4 @@ dist
 dll
 .vscode
 test
+package-lock.json
