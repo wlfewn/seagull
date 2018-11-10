@@ -1,6 +1,8 @@
 spring:
   application:
     name: seagull-service
+  profiles:
+    active: dev 
   datasource:
     driverClassName: com.mysql.jdbc.Driver
     # 注意修改
